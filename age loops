@@ -1,0 +1,21 @@
+/*Write a program that asks the user about his/her and then behaves as the following;
+Age< 16		too young to drive
+Age = 16 		better clear the road
+Age > 16		you are getting old*/
+#include<iostream>
+using namespace std;
+int main(){
+	int age;
+	cout<<"Enter the age:";
+	cin>>age;
+	if(age<16){
+		cout<<"TOO YOUNG TO DRIVE"<<endl;
+	}
+	else if(age==16){
+		cout<<"BETTER CLEAR THE ROAD"<<endl;
+	}
+	else {
+		cout<<"YOU ARE GETTING OLD"<<endl;
+	}
+	return 0;
+}
